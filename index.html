@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="profpic.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Alexander Rudenshiold" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Alexander Rudenshiold</title>
+    <style>
+        a {
+            text-decoration: underline;
+        }
+
+        /* unvisited link */
+        a:link {
+            color: blue;
+        }
+
+        /* visited link */
+        a:visited {
+            color: purple;
+        }
+
+        /* selected link */
+        a:active {
+            color: blue;
+        }
+
+        hr {
+            display: block;
+            width: 33%;
+            margin-top: 0.5em;
+            margin-bottom: 1em;
+            margin-left: 0;
+            margin-right: auto;
+            border-style: inset;
+            border-top: 1px dashed;
+            border-width: 1px;
+        }
+
+        h1 {
+            display: block;
+            font-size: 2em;
+            margin-top: .34em;
+            margin-bottom: 0.34em;
+            margin-left: 0;
+            margin-right: 0;
+            font-weight: bold;
+        }
+
+        body {
+            padding: 60px;
+            background-color: white;
+            font-family: monospace;
+            font-size: 16px;
+            color: black;
+            font-size: 25px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .dark-mode {
+            background-color: black;
+            color: white;
+        }
+
+        /* Dropdown Button */
+        .dropbtn {
+            color: blue;
+            text-decoration: underline;
+            background-color: transparent;
+            padding: 6px 16px;
+            font-size: 16px;
+            font-family: monospace;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Dropdown button on hover & focus */
+        /* .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: #2980B9;
+        } */
+
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            width: fit-content;
+            block-size: fit-content;
+            display: block;
+        }
+
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: relative;
+            background-color: transparent;
+            min-width: 160px;
+            /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            font-family: monospace;
+            font-size: 16px;
+            padding: 6px 32px;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        /* .dropdown-content a:hover {
+            background-color: #ddd
+        } */
+
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        .show {
+            display: block;
+        }
+    </style>
+    <script>
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1>
+        Alexander Rudenshiold
+        <p>
+            Musician, writer, audio engineer, and visual artist based in Charlottesville, Virginia.
+            <br />
+            Media, Culture, & Technology M.A. student at the University of Virginia.
+        </p>
+    </h1>
+    <hr>
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn"><i class="fas fa-folder">&nbsp;</i>Social Links</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="https://dietofnothing.substack.com/"><i class="fas fa-link">&nbsp;</i>Substack</a>
+            <a href="https://twitter.com/rudenshiold"><i class="fas fa-link">&nbsp;</i>Twitter</a>
+            <a href="https://www.linkedin.com/in/rudenshiold/"><i class="fas fa-link">&nbsp;</i>LinkedIn</a>
+            <a href="https://www.instagram.com/alexrudensh/"><i class="fas fa-link">&nbsp;</i>Instagram</a>
+            <a href="mailto:alex@rudenshiold.com"><i class="fas fa-link">&nbsp;</i>Email</a>
+            <a href="https://github.com/rudenshiold/"><i class="fas fa-link">&nbsp;</i>Github</a>
+            <a href="https://soundcloud.com/cerbe"><i class="fas fa-link">&nbsp;</i>Soundcloud</a>
+        </div>
+    </div>
+    <div class="dropdown2">
+        <button onclick="myFunction()" class="dropbtn"><i class="fas fa-folder">&nbsp;</i>Documents</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="https://dietofnothing.substack.com/"><i class="fas fa-link">&nbsp;</i>Substack</a>
+            <a href="https://twitter.com/rudenshiold"><i class="fas fa-link">&nbsp;</i>Twitter</a>
+            <a href="https://www.linkedin.com/in/rudenshiold/"><i class="fas fa-link">&nbsp;</i>LinkedIn</a>
+            <a href="https://www.instagram.com/alexrudensh/"><i class="fas fa-link">&nbsp;</i>Instagram</a>
+            <a href="mailto:alex@rudenshiold.com"><i class="fas fa-link">&nbsp;</i>Email</a>
+            <a href="https://github.com/rudenshiold/"><i class="fas fa-link">&nbsp;</i>Github</a>
+            <a href="https://soundcloud.com/cerbe"><i class="fas fa-link">&nbsp;</i>Soundcloud</a>
+        </div>
+    </div>
+</body>
+
+</html>
