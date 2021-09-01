@@ -15,7 +15,7 @@
         a {
             text-decoration: underline;
             padding: 0px 0px 0px 0px;
-        
+
         }
 
         /* unvisited link */
@@ -55,6 +55,7 @@
             font-weight: bold;
         }
 
+
         body {
             padding: 60px;
             background-color: white;
@@ -64,16 +65,49 @@
             font-size: 25px;
         }
 
-        p {
-            padding: 0px;
-            font-size: 16px;
-
-        }
-
         .dark-mode {
             background-color: black;
             color: white;
         }
+
+        p {
+            padding: 0px;
+            margine: 0px;
+            font-size: 16px;
+        }
+
+        span {}
+
+        .rainbow {
+            text-align: left;
+            text-decoration: underline;
+            font-size: 15px;
+            font-family: monospace;
+            animation: colorRotate 6s linear 0s infinite;
+        }
+
+        @keyframes colorRotate {
+            from {
+                color: #6666ff;
+            }
+
+            10% {
+                color: #0099ff;
+            }
+
+            50% {
+                color: #00ff00;
+            }
+
+            75% {
+                color: #ff3399;
+            }
+
+            100% {
+                color: #6666ff;
+            }
+        }
+
 
         /* Style the buttons that are used to open and close the accordion panel */
         .accordion {
@@ -130,7 +164,8 @@
 
     <button class="accordion"><i class="fas fa-folder">&nbsp;</i>Text</button>
     <div class="panel">
-        <a href="https://dietofnothing.substack.com/"><i class="fas fa-link">&nbsp;</i>Diet of Nothing (Substack)</a><br />
+        <a href="https://dietofnothing.substack.com/"><i class="fas fa-link">&nbsp;</i>Diet of Nothing
+            (Substack)</a><br />
         <a href=""><i class="fas fa-file">&nbsp;</i></a><br />
     </div>
 
@@ -148,13 +183,63 @@
         <div class="panel">
             <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2021</button>
             <div class="panel">
-                <a href="https://sobadly.bandcamp.com/album/lemon-blue"><i class="fas fa-file-audio">&nbsp;</i>(2021) So Badly - <em>Lemon Blue</em></a><br />
-                &emsp;&emsp;Production (engineering, recording, mixing)
+                <a href="https://sobadly.bandcamp.com/album/lemon-blue"><i class="fas fa-file-audio">&nbsp;</i>So
+                    Badly - <em>Lemon Blue</em></a><br />
+                &emsp;&emsp;Production (engineering, recording, mixing).
             </div>
             <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2020</button>
             <div class="panel">
-            <a href="https://infantisland.bandcamp.com/album/collections-1"><i class="fas fa-file-audio">&nbsp;</i>(2020) Infant Island - <em>Collections 1</em></a><br />
-            &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering), remixing
+                <a href="https://infantisland.bandcamp.com/album/collections-1"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - <em>Collections 1</em></a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering), remixing.<br />
+                &emsp;&emsp;Released by Hidden Sound Collective & Dog Knights Productions.<br />
+                <a href="https://infantisland.bandcamp.com/album/beneath"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - <em>Beneath</em></a><br />
+                &emsp;&emsp;<a href="https://pitchfork.com/reviews/albums/infant-island-beneath/"><span class="rainbow">Pitchfork 7.9!</span></a><br />
+                &emsp;&emsp;Songwriting, performance.<br />
+                &emsp;&emsp;Released by Dog Knights Productions.<br />
+                <a href="https://infantisland.bandcamp.com/album/sepulcher"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - <em>Sepulcher</em></a><br />
+                &emsp;&emsp;Songwriting, performance.<br />
+                &emsp;&emsp;Released by Acrobat Unstable Records (US), Zegema Beach Records (Can), & Left Hand Label
+                (UK, EU).<br />
+            </div>
+            <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2019</button>
+            <div class="panel">
+                <a href="https://sobadly.bandcamp.com/album/someone-better-blue"><i class="fas fa-file-audio">&nbsp;</i>So Badly - <em>Someone Better / Blue</em></a><br />
+                &emsp;&emsp;Mixing, mastering.<br />
+                <a href="https://sylphva.bandcamp.com/album/sylph"><i class="fas fa-file-audio">&nbsp;</i>Sylph - <em>Sylph</em></a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering).<br />
+                <a href="https://infantisland.bandcamp.com/album/hymnes-aux-d-sarrois-de-la-peau"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - "Death Portrait"</a><br />
+                &emsp;&emsp;Songwriting, performance.<br />
+                &emsp;&emsp;Released as part of the <em>Hymnes aux Désarrois de la Peau</em> 4-way split.<br />
+                <a href="https://middlemanrecords.bandcamp.com/track/a-preocupation-reprise"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - "A Preoccupation (Reprise)"</a><br />
+                &emsp;&emsp;Songwriting, performance.<br />
+                &emsp;&emsp;Released as part of the <em>Sordid States V.2</em> compilation on Middle Man Records.<br />
+                <a href="https://middlemanrecords.bandcamp.com/track/a-preocupation-reprise"><i class="fas fa-file-audio">&nbsp;</i>Raw Feels - <em>I Feel Fine</em></a><br />
+                &emsp;&emsp;Mastering.<br />
+            </div>
+            <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2018</button>
+            <div class="panel">
+                <a href="https://middlemanrecords.bandcamp.com/track/ugly-brunette-july-5th-horse-jumper-of-love"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - "Ugly Brunette/July 5th (Horse Jumper of Love cover)"</a><br />
+                &emsp;&emsp;Re-arrangement, performance.<br />
+                &emsp;&emsp;Released as part of the <em>Grave Neighbours V.2</em> compilation on Middle Man Records.<br />
+                <a href="https://infantisland.bandcamp.com/album/infant-island"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - <em>Infant Island</em>></a><br />
+                &emsp;&emsp;Songwriting, performance.<br />
+                &emsp;&emsp;Released on Middle Man Records (US), Conditions Records (US), Dingleberry Records (DE), & Zegema Beach Records (Can).<br />
+                <a href="https://infantisland.bandcamp.com/album/where-there-is-ruin"><i class="fas fa-file-audio">&nbsp;</i>Infant Island - "Where There Is Ruin"</a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering).<br />
+            </div>
+            <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2017</button>
+            <div class="panel">
+                <a href="https://maidenhair.bandcamp.com/album/charlies-song"><i class="fas fa-file-audio">&nbsp;</i>Maidenhair - <em>Charlie's Song</em></a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering).<br />
+                <a href="https://sororityboy.bandcamp.com/album/friends-enemies"><i class="fas fa-file-audio">&nbsp;</i>Sorority Boy - <em>Friends / Enemies</em></a><br />
+                &emsp;&emsp;Production (engineering, recording, mixing).<br />
+                <a href="https://infantisland.bandcamp.com/album/infant-island-smallhands"><i class="fas fa-file-audio">&nbsp;</i>Infant Island & Smallhands - <em>Split</em></a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering).<br />
+            </div>
+            <button class="accordion"><i class="fas fa-folder">&nbsp;</i>2016</button>
+            <div class="panel">
+                <a href="https://maidenhair.bandcamp.com/album/fall"><i class="fas fa-file-audio">&nbsp;</i>Maidenhair - "Fall"</a><br />
+                &emsp;&emsp;Songwriting, performance, production (engineering, recording, mixing, mastering).<br />
             </div>
         </div>
     </div>
