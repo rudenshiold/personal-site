@@ -70,7 +70,7 @@
             font-family: "LackLineItalic", monospace;
             color: green;
             display: block;
-            hyphens: auto;
+            hyphens: manual;
             font-size: 3em;
             margin-top: .34em;
             margin-bottom: 0.34em;
@@ -95,12 +95,17 @@
         }
 
         p {
-            padding: 0px;
-            margine: 0px;
+            padding-left: 48px;
+            text-indent: -48px;
+            margin: 0px;
             font-size: 16px;
         }
 
-        span {}
+        span {
+            font-family: monospace;
+            margin: 0px;
+            font-size: 16px;
+        }
 
         .rainbow {
             text-align: left;
@@ -163,7 +168,7 @@
     <h1>
         Alex&shy;ander Ruden&shy;shiold
     </h1>
-    <p>
+    <p style="padding-left: 0px; text-indent: 0px">
         <b>
         Musician, writer, audio engineer, and designer based in Charlottesville, Virginia.<br />
         Shelton scholar in the Media, Culture, & Technology M.A. program at the University of Virginia.
@@ -172,13 +177,15 @@
 
     <hr>
 
-    <p>
+    <span>
         <b>Coming soon...</b><br />
-        ☆ Upcoming conference presentation October 21 at University of Southern California:<br />
-        &emsp;&emsp;&emsp;&emsp;"'Am I Pregernant': Internet Question Culture on <em>Yahoo! Answers</em> and Beyond."<br />
+    </span>
+    <p>        
+        ☆ Upcoming conference presentation October 21 at University of Southern California – "'Am I Pregernant': Internet Question Culture on <em>Yahoo! Answers</em> and Beyond."<br />
+    </p>
+    <p>
         ☆ Infant Island tour dates coming up in the Mid-Atlantic: October 22 - 24.
     </p>
-
     <hr>
 
     <button class="accordion"><i class="fas fa-folder">&nbsp;</i>Socials</button>
