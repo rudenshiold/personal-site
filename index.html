@@ -36,6 +36,44 @@
                 url("fonts/lack-regular-webfont.woff2") format("woff2");
         }
 
+        #top,
+        #bottom,
+        #left,
+        #right {
+            background: blue;
+            position: fixed;
+        }
+
+        #left,
+        #right {
+            top: 0;
+            bottom: 0;
+            width: 16px;
+        }
+
+        #left {
+            left: 0;
+        }
+
+        #right {
+            right: 0;
+        }
+
+        #top,
+        #bottom {
+            left: 0;
+            right: 0;
+            height: 16px;
+        }
+
+        #top {
+            top: 0;
+        }
+
+        #bottom {
+            bottom: 0;
+        }
+
         a {
             text-decoration: underline;
             padding: 0px 0px 0px 0px;
@@ -90,6 +128,9 @@
             font-size: 16px;
             color: black;
             font-size: 25px;
+            /* border-style: inset;
+            border-color: blue;
+            border-width: 15px; */
         }
 
         .dark-mode {
@@ -168,13 +209,17 @@
 </head>
 
 <body>
+    <div id="left"></div>
+    <div id="right"></div>
+    <div id="top"></div>
+    <div id="bottom"></div>
     <h1>
         Alex&shy;ander Ruden&shy;shiold
     </h1>
     <p style="padding-left: 0px; text-indent: 0px">
         <b>
             Musician, writer, audio engineer, and designer based in Charlottesville, Virginia.<br>
-            Shelton scholar in the Media, Culture, & Technology M.A. program at the University of Virginia.
+            Shelton scholar in the Media, Culture, & Technology M.A. program at U.Va.
         </b>
     </p>
 
@@ -184,11 +229,11 @@
         <b>Coming soon...</b><br>
     </span>
     <p>
-        ☆ Upcoming conference presentation October 21 at University of Southern California – "'Am I Pregernant':
+        ☆ Research presentation on 10/21 at University of Southern California's "First Forum" research conference – "'Am I Pregernant':
         Internet Question Culture on <em>Yahoo! Answers</em> and Beyond."<br>
     </p>
     <p>
-        ☆ Infant Island tour dates coming up in the Mid-Atlantic: October 22 - 24.
+        ☆ Infant Island dates in the Mid-Atlantic: 10/22 in PHL, 10/23 in NJ & NY, 10/24 in DC.
     </p>
     <hr>
 
@@ -256,8 +301,13 @@
     <div class="panel">
         <button class="accordion"><i class="fas fa-folder">&nbsp;</i>By Project</button>
         <div class="panel">
-            <i class="fas fa-link">&nbsp;</i>Infant Island (<a href="https://infantisland.us/">Website</a>|<a href="https://infantisland.bandcamp.com/">Bandcamp</a>|<a href="https://open.spotify.com/artist/34ZIRrOiowNWuyJYt5crZM?si=Ps6ISAOiTYaqImL5oemCSg&dl_branch=1">Spotify</a>|<a href="https://music.apple.com/us/artist/infant-island/1413922728">Apple</a>)<br>
-            <i class="fas fa-link">&nbsp;</i>Mattachine (<a href="https://mattachine.bandcamp.com/">Bandcamp</a>|<a href="https://open.spotify.com/artist/0PfIlzOhx6ShRiBrZpwKDG?si=hhyHGGogQKqjn6VWZHbJHA&dl_branch=1">Spotify</a>|<a href="https://music.apple.com/us/artist/mattachine/1515847353">Apple</a>)<br>
+            <i class="fas fa-link">&nbsp;</i>Infant Island (<a href="https://infantisland.us/">Website</a>|<a
+                href="https://infantisland.bandcamp.com/">Bandcamp</a>|<a
+                href="https://open.spotify.com/artist/34ZIRrOiowNWuyJYt5crZM?si=Ps6ISAOiTYaqImL5oemCSg&dl_branch=1">Spotify</a>|<a
+                href="https://music.apple.com/us/artist/infant-island/1413922728">Apple</a>)<br>
+            <i class="fas fa-link">&nbsp;</i>Mattachine (<a href="https://mattachine.bandcamp.com/">Bandcamp</a>|<a
+                href="https://open.spotify.com/artist/0PfIlzOhx6ShRiBrZpwKDG?si=hhyHGGogQKqjn6VWZHbJHA&dl_branch=1">Spotify</a>|<a
+                href="https://music.apple.com/us/artist/mattachine/1515847353">Apple</a>)<br>
             <i class="fas fa-link">&nbsp;</i>Sylph (<a href="https://sylphva.bandcamp.com/">Bandcamp</a>)<br>
             <i class="fas fa-link">&nbsp;</i>Maidenhair (<a href="https://maidenhair.bandcamp.com/">Bandcamp</a>)<br>
             <i class="fas fa-link">&nbsp;</i>Cerbe (<a href="https://soundcloud.com/cerbe">Soundcloud</a>)<br>
