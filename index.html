@@ -12,6 +12,27 @@
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Alexander Rudenshiold</title>
     <style>
+        @font-face {
+        font-family: "LackItalic";
+        src: url("fonts/lack-italic-webfont.woff") format("woff"),
+        url("fonts/lack-italic-webfont.woff2") format("woff2");
+        }
+        @font-face {
+        font-family: "LackLineItalic";
+        src: url("fonts/lack-line-italic-webfont.woff") format("woff"),
+        url("fonts/lack-line-italic-webfont.woff2") format("woff2");
+        }
+        @font-face {
+        font-family: "LackLine";
+        src: url("fonts/lack-line-regular-webfont.woff") format("woff"),
+        url("fonts/lack-line-regular-webfont.woff2") format("woff2");
+        }
+        @font-face {
+        font-family: "Lack";
+        src: url("fonts/lack-regular-webfont.woff") format("woff"),
+        url("fonts/lack-regular-webfont.woff2") format("woff2");
+        }
+
         a {
             text-decoration: underline;
             padding: 0px 0px 0px 0px;
@@ -46,6 +67,7 @@
         }
 
         h1 {
+            font-family: LackLine, monospace;
             display: block;
             hyphens: auto;
             font-size: 2em;
@@ -281,11 +303,9 @@
         </div>
     </div>
 
-    <button class="accordion"><i class="fas fa-folder">&nbsp;</i>Visual</button>
+    <button class="accordion"><i class="fas fa-file-image">&nbsp;</i>Visual</button>
     <div class="panel">
-        <span style="color:red">Coming soon.</span>
-        <!-- <a href=""><i class="fas fa-file"></i>&nbsp;</i></a><br />
-        <a href=""><i class="fas fa-file">&nbsp;</i></a><br /> -->
+        
     </div>
 
     <button class="accordion"><i class="fas fa-folder">&nbsp;</i>Selected Press</button>
